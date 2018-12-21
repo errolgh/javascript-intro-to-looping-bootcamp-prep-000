@@ -11,6 +11,13 @@ function forLoop (array) {
 }
 
 //while loop
-function whileLoop (number) {
+function whileLoop (n) {
+  let countdown = 100;
   
+  while (countdown > 0) {
+    let countdown = 10;
+    console.log(--countdown);
+  }
 }
+// i think the above while loop is bad because it looks
+//like it will go on forever.
