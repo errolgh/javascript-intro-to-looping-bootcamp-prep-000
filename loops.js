@@ -1,4 +1,3 @@
-//for loop 
 var array = [];
 
 function forLoop(array) {
@@ -8,13 +7,9 @@ function forLoop(array) {
       for (let i = 0; i <= 25; i++) {
       return `I am ${i} strange loops.`;
     }
-    
   }
 }
 
-
-
-//while loop
 function whileLoop (n) {
     let countdown = 100;
   
@@ -29,6 +24,3 @@ function doWhileLoop(array) {
     array.pop;
   } while (array.length > 0);
 }
-
-// i think the above while loop is bad because it looks
-//like it will go on forever.
