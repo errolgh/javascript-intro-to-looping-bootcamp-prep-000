@@ -15,7 +15,8 @@ function forLoop(array) {
 
 //while loop
 function whileLoop (n) {
-  let countdown = 100;
+  do {
+    let countdown = 100;
   
   while (countdown > 0) {
     return(--countdown);
