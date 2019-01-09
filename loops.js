@@ -5,7 +5,7 @@ function forLoop(array) {
     if (i === 1) {
       return `I am 1 strange loop.`;
     } else {
-      for (var i = 0; i <= 25; i++) {
+      for (const i = 0; i <= 25; i++) {
       return `I am ${i} strange loops.`;
     }
     
