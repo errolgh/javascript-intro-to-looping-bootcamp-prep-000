@@ -23,6 +23,7 @@ function whileLoop (n) {
   }
 }
 
+//doWhileLoop(array)
 
 // i think the above while loop is bad because it looks
 //like it will go on forever.
