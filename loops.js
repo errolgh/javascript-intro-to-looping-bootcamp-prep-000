@@ -15,7 +15,6 @@ function forLoop(array) {
 
 //while loop
 function whileLoop (n) {
-  do {
     let countdown = 100;
   
   while (countdown > 0) {
@@ -24,7 +23,9 @@ function whileLoop (n) {
 }
 
 function doWhileLoop(array) {
-  
+  do {
+    array.pop;
+  } while (array.length > 0);
 }
 
 // i think the above while loop is bad because it looks
