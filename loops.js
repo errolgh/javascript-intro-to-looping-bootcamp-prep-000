@@ -20,7 +20,7 @@ function whileLoop (n) {
   
   while (countdown > 0) {
     let countdown = 10;
-    console.log(--countdown);
+    return(--countdown);
   }
 }
 
